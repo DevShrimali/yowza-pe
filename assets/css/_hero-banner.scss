@@ -1,0 +1,114 @@
+//  Background Animation
+.hero-banner {
+   
+    overflow: auto;
+}
+.ban-section {
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.ban-section .ban-text {
+    padding-bottom: 2rem;
+}
+
+.ban-section .ban-text h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.ban-section .ban-text ul li {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.ban-section .ban-img-box img {
+    max-width: 350px;
+    -webkit-animation: dowanup 12s infinite linear;
+    animation: dowanup 12s infinite linear;
+}
+
+
+.ban-shape img:nth-child(1) {
+    position: absolute;
+    width: 200px;
+    top: 10%;
+    left: -30px;
+    -webkit-animation: shapeupdown 5s infinite linear;
+    animation: shapeupdown 5s infinite linear;
+}
+
+.ban-shape img:nth-child(2) {
+    position: absolute;
+    width: 250px;
+    top: 35%;
+    left: -120px;
+    -webkit-animation: shapeupdown 5s infinite linear;
+    animation: shapeupdown 5s infinite linear;
+}
+
+
+
+@keyframes dowanup {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes letright {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes shapeupdown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shaperightleft {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(20px);
+
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+

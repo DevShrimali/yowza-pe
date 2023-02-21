@@ -1,0 +1,95 @@
+.header .nav-item {
+    padding: 0 30px;
+}
+
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    img {
+        width: 55%;
+    }
+}
+
+.header .navbar-toggler {
+    border: 0;
+    color: var(--Rose_Gold);
+}
+
+.nav-item.active:hover:after {
+    opacity: 0;
+}
+
+.nav-item {
+    position: relative;
+    transition: all 200ms linear;
+}
+
+.dropdown-toggle::after {
+    border-top: none;
+}
+
+.header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* ===================== scrolled ================ */
+.header-scrolled {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    --webkit-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
+    z-index: 999;
+
+}
+
+.navbar .collapse {
+    background-color: var(--white);
+    z-index: 999;
+
+}
+
+// Code For Effect
+
+
+.nav-link {
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover {
+    color: var(--Rose_Gold);
+    /* change the color of the text on hover if desired */
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    /* adjust the distance of the underline from the text */
+    left: 0;
+    width: 0;
+    height: 1px;
+    /* adjust the thickness of the underline */
+    
+    background-color: var(--Rose_Gold);
+    /* change the color of the underline if desired */
+    transition: width 0.2s ease-in-out;
+}
+.nav-link:hover::after {
+    width: 100%; /* expand the width of the underline on hover */
+  }

@@ -1,0 +1,88 @@
+/* ================== custom btn ==================== */
+.main-btn {
+    padding: 1rem 3rem;
+    text-align: center;
+    color: #ffffff;
+    background: var(--Rose_Gold);
+    font-weight: 600;
+    border-radius: 80px;
+    // margin-left: 30px;
+    /* box-shadow: 0 6px 13px rgb(0 0 0 / 25%) !important */
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+    box-shadow: 5px 5px 10px rgba(113, 70, 75, 0.25), inset 2px 2px 6px #ff9baa, inset -5px -5px 10px #70363f;
+    &:hover {
+        color: white;
+        /* color: var(--banner-background); */
+        // filter: brightness(120%);
+        background: #915760;
+    }
+}
+
+
+.main-btn-outline {
+    padding: 1rem 3rem;
+    text-align: center;
+    color: var(--Rose_Gold);
+    border-radius: 80px;
+    margin: 0 10px;
+    border: 1px solid var(--Rose_Gold);
+    &:hover {
+        color: white;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        box-shadow: 5px 5px 10px rgba(113, 70, 75, 0.25), inset 2px 2px 6px #ff9baa, inset -5px -5px 10px #70363f;
+        background: #915760;
+    }
+}
+
+.btn-out {
+    padding: 10px 1rem;
+    &:hover {
+        box-shadow: none;
+    }
+}
+.btn-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    // color: var(--Light_Grey);
+    // border-radius: 30px;
+    padding: 1rem 2rem;
+    margin-right: 10px;
+
+    text-decoration: none !important;
+    // padding: 1rem 3rem;
+    text-align: center;
+    color: #ffffff;
+   
+    border-radius: 80px;
+    // margin-left: 30px;
+    /* box-shadow: 0 6px 13px rgb(0 0 0 / 25%) !important */
+
+    // 
+
+    background: var(--Rose_Gold);
+    box-shadow: 5px 5px 10px rgba(113, 70, 75, 0.25), inset 2px 2px 6px #ff9baa, inset -5px -5px 10px #70363f;
+
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+    &:hover {
+        color: white;
+        /* color: var(--banner-background); */
+        // filter: brightness(120%);
+        background: #051f20;
+        border: 1px solid white;
+        box-shadow: 5px 5px 10px rgba(113, 70, 75, 0.25), inset 2px 2px 6px #051F20, inset -5px -5px 10px #051f20;
+    }
+   
+}
