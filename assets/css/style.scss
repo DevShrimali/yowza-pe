@@ -8,9 +8,9 @@
 @import 'hero-banner';
 @import 'services';
 @import 'categories';
-@import 'intro-section';
 @import 'detail-section.scss';
 @import 'brand-section.scss';
+@import 'intro-section';
 @import 'calc';
 @import 'faq';
 @import 'footer';
@@ -96,7 +96,7 @@ h2 {
     font-size: 48px;
     line-height: 58px;
     letter-spacing: -0.04em;
-    color: var(--Light_Grey);
+    color: var(--White);
 }
 
 h3 {
@@ -138,6 +138,9 @@ a {
     line-height: 19px;
     letter-spacing: -0.02em;
     color: var(--White);
+    &:hover {
+        color: var(--Rose_Gold);
+    }
 }
 
 
@@ -172,3 +175,10 @@ section {
     align-items: center;
     visibility: hidden;
   }
+
+//   Delete
+
+
+
+// 
+

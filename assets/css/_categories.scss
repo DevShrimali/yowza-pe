@@ -1,7 +1,7 @@
 .categories {
     text-align: center !important;
     // padding: 2rem ;
-    height: 70vh;
+    height: 500px;
 
     a {
         color: var(--White);
@@ -44,8 +44,8 @@
     background-color: #070707;
     border-radius: 20px;
     transition: all .2s;
-    box-shadow: 10px 10px 20px rgb(25, 25, 25),
-        -10px -10px 20px rgb(15, 15, 15);
+    box-shadow: 10px 10px 20px #252525,
+        -10px -10px 20px rgb(39, 39, 39) ;
 
     &:hover {
         // box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);

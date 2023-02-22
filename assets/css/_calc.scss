@@ -1,0 +1,51 @@
+.inboxwrap {
+    background: var(--Dark_Green2);
+    /* background-color: wheat; */
+    border-radius: 30px;
+    padding: 2rem 1rem;
+    overflow: hidden;
+    height: 300px;
+  }
+  
+  .inbox h2 {
+    text-align: center;
+  }
+  
+  .inbox p {
+    text-align: center;
+    width: 706px;
+    margin: 0 auto;
+  }
+  
+
+
+  
+  .inbox-form {
+    position: relative;
+  }
+  
+  .inbox-form .main-btn a {
+    color: var(--White);
+  }
+  
+  .inbox-form .main-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+  }
+  
+  .inboximg {
+    position: relative;
+  }
+  
+  .inboximg .inboximgfst {
+    position: absolute;
+    left: -10px;
+    top: -20rem;
+  }
+  
+  .inboximg .inboximgscnd {
+    position: absolute;
+    right: -10px;
+    top: -13rem;
+  }
