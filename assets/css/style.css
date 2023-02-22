@@ -401,6 +401,11 @@
     /* end shivam edit navbar */
   }
 }
+@media (max-width: 1380px) {
+  .btn-link {
+    padding: 10px 15px;
+  }
+}
 .header .nav-item {
   padding: 0 30px;
 }
